@@ -62,55 +62,6 @@
     Localización: Adaptación de un producto o sitio a un idioma y cultura específicos .
 16.    Diferenciación entre aspectos de usabilidad (U) y accesibilidad (A):
 
-   ASPECTOS GENERALES.
-    ¿Cumple el sitio con sus objetivos?¿Está diseñado para
-    darle a los usuarios lo que ellos quieren? *U*
-    ¿Es eficiente? *U*
-    ¿Es intuitivo? *U*
-    ¿Mantiene una consistencia tanto en su funcionamiento
-    como en su apariencia? *U*
-    ¿Facilita que el usuario se sienta cómodo y con el control
-    del sitio? *U*
-
-    NAVEGACIÓN.
-    ¿Aparece la navegación en un lugar prominente, donde se vea fácilmente? *U*
-    ¿Los enlaces que son imágenes tienen su atributo ALT
-    escrito? *A*
-    Si ha usado JavaScript para la navegación ¿ha preparado
-    también una navegación en modo texto? *A*
-    ¿Existen enlaces rotos o que no conducen a ningún sitio?    *U*
-    ¿Tiene el sitio un site map o un buscador para quienes
-    quieren acceder directamente a los contenidos sin tener
-    que navegar? *U*
-    ¿Se mantiene una navegación consistente y coherente a lo
-    largo del site? *U*
-    ¿Existen elementos que permitan al usuario saber
-    exactamente dónde se encuentra dentro del site y cómo
-    volver atrás (como “migas de pan”)? *U*
-    ¿Indican los enlaces claramente hacia dónde apuntan? *U*
-    ¿Está claro lo que el usuario encontrará detrás de cada uno? *U*
-
-    ANIMACIONES.
-    Evite las animaciones cíclicas (i.e. gif animados que se
-    repiten hasta el cansancio), a menos que cumplan con un
-    propósito claro. Use animaciones Flash sólo si es
-    absolutamente necesario. *A*
-
-    TECNOLOGÍA.
-    ¿La tecnología utilizada en el site es compatible con el
-    software y hardware de los usuarios objetivos? ¿No
-    tendrán que descargar elementos como plug-ins para poder
-    usarlo? *A*
-    Si es importante utilizar recursos técnicos que requieran la descarga de plug-ins, ¿se le informa al usuario de esta
-    situación y se le explica la importancia de hacerlo? *A*
-
-    FEEDBACK.
-    ¿Se han previsto respuestas del sistema frente a
-    interacciones del usuario? *U*
-    ¿Puede el usuario ponerse en contacto para hacer
-    sugerencias o comentarios? *U*
-
-PRUEBA DE UNA TABLA EN FORMATO .MD
     | Categoría       | Pregunta                                                                                       | Clasificación |
 |-----------------|------------------------------------------------------------------------------------------------|---------------|
 | ASPECTOS GENERALES | ¿Cumple el sitio con sus objetivos? ¿Está diseñado para darle a los usuarios lo que ellos quieren? | *U*           |
