@@ -61,8 +61,7 @@
     Internacionalización: Proceso de preparar un sistema para diferentes idiomas y regiones.
     Localización: Adaptación de un producto o sitio a un idioma y cultura específicos .
 16.    Diferenciación entre aspectos de usabilidad (U) y accesibilidad (A):
-
-    | Categoría       | Pregunta                                                                                       | Clasificación |
+| Categoría       | Pregunta                                                                                       | Clasificación |
 |-----------------|------------------------------------------------------------------------------------------------|---------------|
 | ASPECTOS GENERALES | ¿Cumple el sitio con sus objetivos? ¿Está diseñado para darle a los usuarios lo que ellos quieren? | *U*           |
 | ASPECTOS GENERALES | ¿Es eficiente?                                                                              | *U*           |
@@ -83,3 +82,4 @@
 | TECNOLOGÍA        | Si es importante utilizar recursos técnicos que requieran la descarga de plug-ins, ¿se le informa al usuario de esta situación y se le explica la importancia de hacerlo? | *A* |
 | FEEDBACK          | ¿Se han previsto respuestas del sistema frente a interacciones del usuario?                  | *U*           |
 | FEEDBACK          | ¿Puede el usuario ponerse en contacto para hacer sugerencias o comentarios?                  | *U*           |
+    
