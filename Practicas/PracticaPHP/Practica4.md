@@ -114,4 +114,58 @@ EJERCICIO 1:
         echo "<font face='arial' size='3'>Cantidad de visitas:".$cont."</font>";
 
         ?>
+
+        PHP ARRAYS Y FUNCIONES
+
+        EJERCICIO 1:
+
+            Los códigos indicados son equivalentes ya que ambos crean un array asociativo de 5 elementos, en el cual los indices tienen valores de tipo "llave" o "key values".
+
+        EJERCICIO 2:
+        <?php
+        $matriz = array("x" => "bar", 12 => true);
+        echo $matriz["x"]; /* Printea en pantalla "bar" */
+        echo $matriz[12]; /* Printea en pantalla el número "1" , que es el valor True */
+        /* En pantalla printea bar1 */
+
+        ?>
+
+        <?php
+        $matriz = array("unamatriz" => array(6 => 5, 13 => 9, "a" => 42));
+        echo $matriz["unamatriz"][6]; /* Printea en pantalla el número "5" */
+        echo $matriz["unamatriz"][13]; /* Printea en pantalla el número "9" */
+        echo $matriz["unamatriz"]["a"]; /* Printea en pantalla el número "42" */
+        /* En pantalla printea 5942 */
+        ?>
+
+        <?php
+        $matriz = array(5 => 1, 12 => 2);
+        $matriz[] = 56; /* Añade un elemento al final de la matriz cuya key es "nil" */
+        $matriz["x"] = 42;  /* Añade un elemento al final de la matriz cuya key es "x"*/ 
+        unset($matriz[5]); /* Elimina el elemento de la matriz cuya key es "5" */
+        unset($matriz);  /* Elimina la matriz entera */
+        /* En pantalla no printea nada */
+        ?>
+
+        EJERCICIO 3:
+          <?php
+            $fun = getdate(); /* Obtiene la fecha actual en el formato AAAA/MM/DD dsemana(0-6)-mes-año */
+            /* Todo esto dentro de un array del tipo key -> value */
+            echo "Has entrado en esta pagina a las $fun[hours] horas, con $fun[minutes] minutos y $fun[seconds]
+            segundos, del $fun[mday]/$fun[mon]/$fun[year]"; /* Printea en pantalla una descripción de la hora y la fecha actual. */
+            ?>
+
+
+            <?php
+            function sumar($sumando1,$sumando2){
+            $suma=$sumando1+$sumando2; /* Suma los dos parámetros */
+            echo $sumando1."+".$sumando2."=".$suma;  /* Printea en pantalla la suma de los dos parámetros */
+            }
+            sumar(5,6); /* Llama a la funciòn sumar con los parámetros 5 y 6 */
+            /* Printea en pantalla la suma de 5 y 6 */
+            ?>
+
+        EJERCICIO 4:
+        Esta en el archivo php llamado ejercicio4.
+        
         
