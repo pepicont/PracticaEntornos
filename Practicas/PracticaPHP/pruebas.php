@@ -7,6 +7,5 @@
 </head>
 <body>
     <? include("contador.php")?> 
-    
 </body>
 </html>
